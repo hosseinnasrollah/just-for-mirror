@@ -15,8 +15,6 @@ jobs:
         with:
           node-version: 20
 
-      - run: npm install
-
       - run: node script.js   # خروجی HTML تولید می‌کند
 
       - name: Deploy to GitHub Pages
